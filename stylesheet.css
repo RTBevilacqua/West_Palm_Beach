@@ -1,0 +1,265 @@
+*{
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+body{
+	background-color: #efeff5;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+
+
+section{
+	background: white;
+}
+
+
+img{
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+h1{
+	font-family: Raleway, helvetica;
+	font-weight: 400 bold;
+	font-size: 4em;
+	text-align: center;
+	margin: 0 auto;
+	letter-spacing: 18px;
+
+}
+
+h2{
+	font-family: 'Libre Franklin', helvetica;
+	font-weight: 300;
+	text-align: center;
+	position: relative;
+	margin: 0 10px;
+	margin-bottom: 8px;
+}
+section h2{
+	margin: 10px 0;
+}
+
+p{
+	margin: 10px 10px;
+	font-family: 'Libre Franklin', helvetica;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 10px 160px;
+	background: linear-gradient(#ffb22f, #e7a101);
+	font-family: 'Libre Franklin', helvetica;
+	font-size: 1.5em;
+	color: white;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+a{
+	color: white;
+}
+
+a h1,
+a h2{
+	color: black;
+}
+
+
+/*------------------HOME PAGE------------------*/
+
+#headerHome{
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	
+}
+
+#container{
+	
+	image-size: auto;
+}
+
+#history,
+#daytime,
+#nighttime,
+#contact{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1px auto;
+	font-family: Raleway, helvetica;
+	font-size: 3em;
+	color: white;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 45px black;
+}
+
+#history{
+	background-image: url("images/wpbreadingroom.jpg");
+}
+
+
+#daytime{
+	background-image: url("images/snorkel.jpg");
+}
+
+#nighttime{
+	background-image: url("images/dock.jpg");	
+}
+
+#contact{
+	background-image: url("images/ocean.jpg");
+}
+
+/*------------------ FOOTER ------------------*/
+
+footer{
+	background-color: #424242;
+	border-top: 5px solid #ffd571;
+	margin-top: 2px;
+	padding: 10px 0 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#footerContact{
+	text-align: center;
+	color: #959494;
+	margin: 0;
+	padding: 0;
+
+}
+
+#social{
+	max-width: 300px;
+	display: flex;
+	align-content: center;
+	padding: 0 10px;
+	margin: 20px auto;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#fbook{
+	margin: 0 15px;
+}
+#twit{
+	max-width: 120px;
+}
+
+
+/*------------------HISTORY------------------*/
+#headerHistory{
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+#historyInfo{
+	text-align: center;
+
+}
+
+/*------------------CONTACT ------------------*/
+
+#headerContact{
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+#contact-title{
+	margin: 36px auto 11px;
+}
+#contact-h2{
+	font-size: 1.2em;
+}
+
+#contact-div{
+	padding-bottom: 1px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	padding: 45px 20px;
+	background: lightblue;
+	font-family: raleway;
+	margin: 26px auto 85px;
+	width: 400px;
+}
+
+#bio{
+	max-width: 360px;
+}
+
+
+#submit{
+	position: relative;	
+	top: 25px;
+	width: 200px;
+	margin: 0 78px;	
+}
+
+
+
+/*------------------ DAY ------------------*/
+
+#headerDay{
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+.day-activities{
+	margin-top: 0;
+}
+
+
+
+/*------------------ NIGHT ------------------*/
+
+#headerNight{
+	background-image: url("images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20% 0;
+}
+
+.night-activities{
+	margin-top: 0;
+}
+
+/*------------------ MEDIA QUERY ------------------*/
+
+@media (min-width: 680px){
+	#history,
+	#daytime,
+	#nighttime,
+	#contact{
+		padding: 90px 0;
+	}
+	
+}
+
+
